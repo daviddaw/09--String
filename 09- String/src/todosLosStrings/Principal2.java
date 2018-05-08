@@ -2,7 +2,7 @@ package todosLosStrings;
 
 import java.util.Scanner;
 
-public class Principal {
+public class Principal2 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		Strings strings = new Strings();
