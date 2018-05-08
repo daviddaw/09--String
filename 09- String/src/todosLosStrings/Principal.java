@@ -17,9 +17,10 @@ public class Principal {
 	  
 		int opcion;
 			do {
+				
 				do {
-					System.out.println("Elige una opción   :" +
-				"\n	1. imprimir partes de cadena o comparar cadenas con Strings" +
+					System.out.println("Elige una opción:" +
+				"\n	1. imprimir partes de cadena o comparar cadenas con  Strings" +
 				"\n	2. imprimir partes de una cadena con SubStrings." +
 				"\n	3. Busqueda dentro de cadenas IndexOf." +
 				"\n	4. Modificacion de cadenas (remplazo)." +
@@ -32,7 +33,6 @@ public class Principal {
 
 			switch (opcion) {
 				case 1:
-					System.out.println(1);
 					strings.ejemplos(in);
 					break;
 				case 2:

@@ -17,10 +17,10 @@ public void ejemplos(Scanner in) {
 					"Elige una opción:" +
 			"\n	1. SB Metodos Relacionados con el tamaño." +
 			"\n	2. SB Metodos Relacionados con los caracteres charAt/setCharAt/getChars/deleteCharAt/indexOf/append/insert" +
-			"\n	3. SB Metodos Relacionados con los caracteres Reverse/Delete/Replace"+ 
+			"\n	3. SB Metodos Relacionados con los caracteres  Reverse/Delete/Replace"+ 
 			"\n	4. Atras.");
 			opcion = in.nextInt();
-		} while (opcion < 1 || opcion > 4);
+		} while (opcion < 1 ||   opcion > 4);
 
 		switch (opcion) {
 		case 1:
