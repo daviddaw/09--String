@@ -18,7 +18,7 @@ public class Principal {
 		int opcion;
 			do {
 				do {
-					System.out.println("Elige una opción:" +
+					System.out.println("Elige una opción   :" +
 				"\n	1. imprimir partes de cadena o comparar cadenas con Strings" +
 				"\n	2. imprimir partes de una cadena con SubStrings." +
 				"\n	3. Busqueda dentro de cadenas IndexOf." +
