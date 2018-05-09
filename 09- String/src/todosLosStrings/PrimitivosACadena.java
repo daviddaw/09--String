@@ -36,7 +36,10 @@ public void ejemplos(Scanner in) {
 		switch (opcion) {
 		case 1:
 			s1=String.valueOf(num);
+			System.out.println("Ejemplo:    	s1=String.valueOf(num);      ");
 			System.out.println("Pasamos el numero a String "+s1);
+			System.out.println(" ");
+			
 			break;
 		case 2:
 			s2=String.valueOf(encontrado);

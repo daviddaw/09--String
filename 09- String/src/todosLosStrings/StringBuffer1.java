@@ -39,6 +39,7 @@ public void ejemplos(Scanner in) {
 			string="a";
 			System.out.println(s1.charAt(4));//print caracter posicion4
 			s1.setCharAt(4, 'f');//pone f en la posicion4
+			
 			System.out.println(s1.charAt(4));
 			System.out.println(" ");
 			a=new char[100];
