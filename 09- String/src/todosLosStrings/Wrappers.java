@@ -23,10 +23,10 @@ public void ejemplo(Scanner in) {
 					"\n	6. M Integer(String).intValue()." +
 					"\n	7. M Integer.decode(String).intValue()." +
 					"\n	8. Mas ejemplos."+
-					"\n	9. Resumen."+
-					"\n	10. Atras.");
+				
+					"\n	9. Atras.");
 			opcion = in.nextInt();
-		} while (opcion < 1 || opcion > 10);
+		} while (opcion < 1 || opcion > 9);
 
 		switch (opcion) {
 		case 1:
@@ -108,31 +108,13 @@ public void ejemplo(Scanner in) {
 			System.out.println(m6);
 			System.out.println(boleano2);
 			break;
-		case 9:
-			System.out.println("int (similar para Short, Byte, Long)\r\n" + 
-					"A String: String.valueOf(int)\r\n" + 
-					"De String: Integer.parseInt(String) // met. Estático\r\n" + 
-					"De String: new Integer(String).intValue()  //met. No Estático\r\n" + 
-					"De String: Integer.decode(String).intValue();// no válido para Float ni Double\r\n" + 
-					"float\r\n" + 
-					"A String: String.valueOf(float)\r\n" + 
-					"De String: Float.parsefloat(String)\r\n" + 
-					"De String: new Float(String).floatValue()\r\n" + 
-					"double\r\n" + 
-					"A String: String.valueOf(double)\r\n" + 
-					"De String: Double.parseDouble(String)\r\n" + 
-					"De String: new Double(String).doubleValue()\r\n" + 
-					" boolean\r\n" + 
-					"A String: String.valueOf(boolean)\r\n" + 
-					"De String: new Boolean(String).booleanValue()\r\n" + 
-					"");
-			break;
+
 
 		default:
 			break;
 		}
 
-	} while (opcion != 10);//
+	} while (opcion != 9);//
 
 }
 }
